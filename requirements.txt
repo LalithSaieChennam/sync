@@ -1,0 +1,9 @@
+google-genai
+fastapi
+uvicorn
+python-dotenv
+langgraph
+langchain-core
+pydub
+demucs
+soundfile

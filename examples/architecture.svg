@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 140" font-family="'Segoe UI', system-ui, -apple-system, sans-serif">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f0edff"/>
+      <stop offset="100%" stop-color="#e8e4fb"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffe8f0"/>
+      <stop offset="100%" stop-color="#fcdce8"/>
+    </linearGradient>
+    <linearGradient id="g3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fff4e0"/>
+      <stop offset="100%" stop-color="#fcecd0"/>
+    </linearGradient>
+    <linearGradient id="g4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e0f5ee"/>
+      <stop offset="100%" stop-color="#d0f0e4"/>
+    </linearGradient>
+    <linearGradient id="g5" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e4eeff"/>
+      <stop offset="100%" stop-color="#d8e4fb"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="840" height="140" rx="12" fill="#fafafa"/>
+
+  <!-- Node 1: Upload -->
+  <rect x="16" y="20" width="130" height="100" rx="14" fill="url(#g5)" stroke="#c0ccee" stroke-width="1"/>
+  <text x="81" y="58" text-anchor="middle" font-size="26">&#128249;</text>
+  <text x="81" y="80" text-anchor="middle" fill="#2d3748" font-size="12.5" font-weight="700">Upload</text>
+  <text x="81" y="96" text-anchor="middle" fill="#718096" font-size="9.5">MP4 / MOV / WebM</text>
+
+  <!-- Arrow 1 -->
+  <line x1="150" y1="70" x2="172" y2="70" stroke="#cbd5e0" stroke-width="2" stroke-linecap="round"/>
+  <polygon points="172,65 182,70 172,75" fill="#a0aec0"/>
+
+  <!-- Node 2: Scene Analysis -->
+  <rect x="186" y="20" width="130" height="100" rx="14" fill="url(#g1)" stroke="#c4b5fd" stroke-width="1"/>
+  <text x="251" y="58" text-anchor="middle" font-size="26">&#128065;</text>
+  <text x="251" y="80" text-anchor="middle" fill="#2d3748" font-size="12.5" font-weight="700">Scene Analysis</text>
+  <text x="251" y="96" text-anchor="middle" fill="#7c3aed" font-size="9.5" font-weight="600">Gemini 3 Flash</text>
+
+  <!-- Arrow 2 -->
+  <line x1="320" y1="70" x2="342" y2="70" stroke="#cbd5e0" stroke-width="2" stroke-linecap="round"/>
+  <polygon points="342,65 352,70 342,75" fill="#a0aec0"/>
+
+  <!-- Node 3: Composer -->
+  <rect x="356" y="20" width="130" height="100" rx="14" fill="url(#g2)" stroke="#f9a8d4" stroke-width="1"/>
+  <text x="421" y="58" text-anchor="middle" font-size="26">&#127925;</text>
+  <text x="421" y="80" text-anchor="middle" fill="#2d3748" font-size="12.5" font-weight="700">Composer</text>
+  <text x="421" y="96" text-anchor="middle" fill="#db2777" font-size="9.5" font-weight="600">AI Agent</text>
+
+  <!-- Arrow 3 -->
+  <line x1="490" y1="70" x2="512" y2="70" stroke="#cbd5e0" stroke-width="2" stroke-linecap="round"/>
+  <polygon points="512,65 522,70 512,75" fill="#a0aec0"/>
+
+  <!-- Node 4: Music Generation -->
+  <rect x="526" y="20" width="130" height="100" rx="14" fill="url(#g3)" stroke="#fbd38d" stroke-width="1"/>
+  <text x="591" y="58" text-anchor="middle" font-size="26">&#127926;</text>
+  <text x="591" y="80" text-anchor="middle" fill="#2d3748" font-size="12.5" font-weight="700">Music Gen</text>
+  <text x="591" y="96" text-anchor="middle" fill="#d97706" font-size="9.5" font-weight="600">Lyria 3 Pro</text>
+
+  <!-- Arrow 4 -->
+  <line x1="660" y1="70" x2="682" y2="70" stroke="#cbd5e0" stroke-width="2" stroke-linecap="round"/>
+  <polygon points="682,65 692,70 682,75" fill="#a0aec0"/>
+
+  <!-- Node 5: Final Mix -->
+  <rect x="696" y="20" width="130" height="100" rx="14" fill="url(#g4)" stroke="#86efac" stroke-width="1"/>
+  <text x="761" y="58" text-anchor="middle" font-size="26">&#127908;</text>
+  <text x="761" y="80" text-anchor="middle" fill="#2d3748" font-size="12.5" font-weight="700">Final Mix</text>
+  <text x="761" y="96" text-anchor="middle" fill="#059669" font-size="9.5" font-weight="600">FFmpeg + Demucs</text>
+</svg>
